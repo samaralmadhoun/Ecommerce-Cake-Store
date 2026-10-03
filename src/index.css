@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+@keyframes fadeUp {
+  from {
+     opacity: 0;
+      transform: translateY(40px);
+     }
+
+  to { 
+    opacity: 1;
+     transform: translateY(0);
+     }
+}
+
+.fade-up {
+  animation: fadeUp 1.2s ease-out both;
+}
